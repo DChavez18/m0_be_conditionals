@@ -6,6 +6,6 @@ number = 2
 
 if number.even?
     puts "Even"
-else number.odd?
+else
     puts "Odd"
 end
