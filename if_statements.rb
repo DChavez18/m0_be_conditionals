@@ -66,12 +66,8 @@ end
 cups_of_flour = 5
 has_sauce = false
 
-if cups_of_flour == 1 && has_sauce == true
-  puts "I cannot make pizza"
-elsif cups_of_flour == 5 && has_sauce == false
-  puts "I cannot make pizza"
-elsif cups_of_flour == 2 && has_sauce == true
-  puts "I can mak pizza"
-elsif cups_of_flour == 3 && has_sauce == true
+if cups_of_flour >= 2 && has_sauce == true
   puts "I can make pizza"
+else
+  puts "I cannot make pizza"
 end
